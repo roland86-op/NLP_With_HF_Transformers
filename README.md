@@ -25,4 +25,3 @@
 - <strong>Summarization</strong> seperti namanya merupakan bagian NLP yang digunakan untuk meringkas teks input sambil mempertahankan informasi penting dan makna keseluruhan dari teks awal yang lebih panjang. Termasuk dalam kategori membuat kalimat baru dari teks masukan.
 
 - <strong>Translation</strong> atau translasi dalam Bahasa Indonesia merupakan bagian NLP yang digunakan untuk menerjemahkan teks dari satu bahasa ke bahasa yang berbeda. Pada contoh akan menerjemahkan dari Bahasa Indonesia ke Bahasa Inggris. Termasuk dalam kategori membuat kalimat baru dari teks masukan.
-Dst...
