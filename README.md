@@ -12,9 +12,9 @@
 
 - <strong>Zero Shot Classification</strong> termasuk ke bagian "Klasifikasikan ke seluruh kalimat" dimana dia mencari label yang paling cocok dengan prompt atau input yang dikasih dan memberikan score tertinggi kepada label tersebut. zero shot classification merupakan salah satu pipeline yang menggunakan model yang telah di "pretrained" atau dilatih untuk mengklasifikasikan suatu kalimat ke label yang belum pernah dilihat oleh model. Pada prompt yang saya berikan mungkin kata "semiconductor" ditemukan sangat berhubungan dengan label "electronic" sehingga pada label "electronic" model memberikan score tertinggi kepada label "electronic"
 
-- <strong>Text generation</strong> seperti namanya memiliki peran untuk menghasilkan/melanjutkan teks dari input prompt yang telah diberikan, secara default menggunakan model gpt2. Text generation ini termasuk kategori membuat konten teks dalam NLP.
+- <strong>Text Generation</strong> seperti namanya memiliki peran untuk menghasilkan/melanjutkan teks dari input prompt yang telah diberikan, secara default menggunakan model gpt2. Text generation ini termasuk kategori membuat konten teks dalam NLP.
 
-- <strong>Fill mask</strong> berfungsi untuk mengisi kata yang kosong di tengah kalimat, menggunakan model distilroberta-base memberikan score terhadap label kata yang dianggap cocok seperti pada contoh output yang diberikan adalah "cheese" dan "basil". Termasuk kategori membuat konten teks dalam NLP.
+- <strong>Fill Mask</strong> berfungsi untuk mengisi kata yang kosong di tengah kalimat, menggunakan model distilroberta-base memberikan score terhadap label kata yang dianggap cocok seperti pada contoh output yang diberikan adalah "cheese" dan "basil". Termasuk kategori membuat konten teks dalam NLP.
 
 - <strong>NER(Named Entity Recognition)</strong> mengklasifikasikan suatu kata dalam teks yang diberikan ke salah satu label ini PER: Nama orang, LOC: Lokasi atau tempat, ORG: Organisasi, MISC: Entitas lain seperti acara, merek, atau produk. Pada contoh dapat mendeteksi konteks orang dalam kalimat dan lokasi yaitu "Roland" dan "Indonesia". NER ini termasuk dalam kategori klasifikasi setiap kata.
 
