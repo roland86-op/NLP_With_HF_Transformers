@@ -10,7 +10,7 @@
 
 <h2 align="center"> Analisis Pipeline Transformers pada HuggingFace </h2> 
 
-- <strong>zero short </strong> termasuk ke bagian "Klasifikasikan ke seluruh kalimat" dimana dia mencari label yang paling cocok dengan prompt atau input yang dikasih dan memberikan score tertinggi kepada label tersebut. zero shot classification merupakan salah satu pipeline yang menggunakan model yang telah di "pretrained" atau dilatih untuk mengklasifikasikan suatu kalimat ke label yang belum pernah dilihat oleh model. Pada prompt yang saya berikan mungkin kata "semiconductor" ditemukan sangat berhubungan dengan label "electronic" sehingga pada label "electronic" model memberikan score tertinggi kepada label "electronic"
+- <strong>Zero Shot Classification</strong> termasuk ke bagian "Klasifikasikan ke seluruh kalimat" dimana dia mencari label yang paling cocok dengan prompt atau input yang dikasih dan memberikan score tertinggi kepada label tersebut. zero shot classification merupakan salah satu pipeline yang menggunakan model yang telah di "pretrained" atau dilatih untuk mengklasifikasikan suatu kalimat ke label yang belum pernah dilihat oleh model. Pada prompt yang saya berikan mungkin kata "semiconductor" ditemukan sangat berhubungan dengan label "electronic" sehingga pada label "electronic" model memberikan score tertinggi kepada label "electronic"
 
 - <strong>Text generation</strong> seperti namanya memiliki peran untuk menghasilkan/melanjutkan teks dari input prompt yang telah diberikan, secara default menggunakan model gpt2. Text generation ini termasuk kategori membuat konten teks dalam NLP.
 
